@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt6952960",
+  "title": "The Kindergarten Teacher",
+  "scenes": [
+    {
+      "start_ms": 366000,
+      "end_ms": 372000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 438000,
+      "end_ms": 444000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 540000,
+      "end_ms": 546000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 552000,
+      "end_ms": 558000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 558000,
+      "end_ms": 564000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 882000,
+      "end_ms": 888000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1056000,
+      "end_ms": 1057000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1242000,
+      "end_ms": 1254000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1386000,
+      "end_ms": 1458000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1926000,
+      "end_ms": 1932000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2322000,
+      "end_ms": 2328000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2370000,
+      "end_ms": 2412000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2370000,
+      "end_ms": 2448000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2568000,
+      "end_ms": 2574000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2586000,
+      "end_ms": 2592000,
+      "action": "Remove",
+      "category": "drugs_illegal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2598000,
+      "end_ms": 2599000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2598000,
+      "end_ms": 2604000,
+      "action": "Remove",
+      "category": "drugs_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2610000,
+      "end_ms": 2611000,
+      "action": "Remove",
+      "category": "drugs_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2628000,
+      "end_ms": 2634000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2646000,
+      "end_ms": 2652000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2652000,
+      "end_ms": 2658000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2916000,
+      "end_ms": 2928000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3072000,
+      "end_ms": 3084000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3096000,
+      "end_ms": 3114000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3114000,
+      "end_ms": 3126000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3558000,
+      "end_ms": 3559000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3768000,
+      "end_ms": 3769000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4164000,
+      "end_ms": 4254000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4440000,
+      "end_ms": 4446000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4542000,
+      "end_ms": 4566000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4572000,
+      "end_ms": 4602000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4836000,
+      "end_ms": 4842000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4854000,
+      "end_ms": 4860000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4866000,
+      "end_ms": 4878000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4956000,
+      "end_ms": 4968000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4980000,
+      "end_ms": 4992000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5082000,
+      "end_ms": 5088000,
+      "action": "Remove",
+      "category": "nudity_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5136000,
+      "end_ms": 5148000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5154000,
+      "end_ms": 5172000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5376000,
+      "end_ms": 5382000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5406000,
+      "end_ms": 5412000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5418000,
+      "end_ms": 5424000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5436000,
+      "end_ms": 5466000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

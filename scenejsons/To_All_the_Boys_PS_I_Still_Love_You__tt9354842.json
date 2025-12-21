@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt9354842",
+  "title": "To All the Boys: P.S. I Still Love You",
+  "scenes": [
+    {
+      "start_ms": 114000,
+      "end_ms": 115000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 120000,
+      "end_ms": 121000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 120000,
+      "end_ms": 126000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 132000,
+      "end_ms": 133000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 138000,
+      "end_ms": 139000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 180000,
+      "end_ms": 186000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 210000,
+      "end_ms": 216000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 252000,
+      "end_ms": 258000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 252000,
+      "end_ms": 258000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 408000,
+      "end_ms": 414000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 432000,
+      "end_ms": 433000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 438000,
+      "end_ms": 444000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 618000,
+      "end_ms": 624000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 624000,
+      "end_ms": 630000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 960000,
+      "end_ms": 961000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1194000,
+      "end_ms": 1200000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1836000,
+      "end_ms": 1837000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1848000,
+      "end_ms": 1854000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2088000,
+      "end_ms": 2100000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2136000,
+      "end_ms": 2142000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2442000,
+      "end_ms": 2443000,
+      "action": "Remove",
+      "category": "drugs_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2526000,
+      "end_ms": 2527000,
+      "action": "Remove",
+      "category": "drugs_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2808000,
+      "end_ms": 2832000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2832000,
+      "end_ms": 2856000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2886000,
+      "end_ms": 2892000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2898000,
+      "end_ms": 2899000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3090000,
+      "end_ms": 3091000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3678000,
+      "end_ms": 3684000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3894000,
+      "end_ms": 3966000,
+      "action": "Remove",
+      "category": "nudity_art",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4278000,
+      "end_ms": 4279000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4350000,
+      "end_ms": 4351000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5436000,
+      "end_ms": 5454000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5676000,
+      "end_ms": 5694000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5700000,
+      "end_ms": 5706000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5742000,
+      "end_ms": 5760000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

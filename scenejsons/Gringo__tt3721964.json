@@ -1,0 +1,1120 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt3721964",
+  "title": "Gringo",
+  "scenes": [
+    {
+      "start_ms": 72000,
+      "end_ms": 73000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 102000,
+      "end_ms": 103000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 102000,
+      "end_ms": 108000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 108000,
+      "end_ms": 114000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 138000,
+      "end_ms": 139000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 264000,
+      "end_ms": 265000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 372000,
+      "end_ms": 373000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 504000,
+      "end_ms": 505000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 510000,
+      "end_ms": 511000,
+      "action": "Remove",
+      "category": "vulgar_gestures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 702000,
+      "end_ms": 714000,
+      "action": "Remove",
+      "category": "nudity_art",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 948000,
+      "end_ms": 954000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 954000,
+      "end_ms": 960000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 966000,
+      "end_ms": 978000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 996000,
+      "end_ms": 1002000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1008000,
+      "end_ms": 1009000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1020000,
+      "end_ms": 1026000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1056000,
+      "end_ms": 1057000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1056000,
+      "end_ms": 1057000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1080000,
+      "end_ms": 1086000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1098000,
+      "end_ms": 1104000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1110000,
+      "end_ms": 1111000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1128000,
+      "end_ms": 1129000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1140000,
+      "end_ms": 1146000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1152000,
+      "end_ms": 1158000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1164000,
+      "end_ms": 1165000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1206000,
+      "end_ms": 1212000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1206000,
+      "end_ms": 1212000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1218000,
+      "end_ms": 1224000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1224000,
+      "end_ms": 1230000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1254000,
+      "end_ms": 1260000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1278000,
+      "end_ms": 1290000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1296000,
+      "end_ms": 1297000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1752000,
+      "end_ms": 1753000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1758000,
+      "end_ms": 1764000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1824000,
+      "end_ms": 1830000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2076000,
+      "end_ms": 2082000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2094000,
+      "end_ms": 2100000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2118000,
+      "end_ms": 2119000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2124000,
+      "end_ms": 2130000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2136000,
+      "end_ms": 2142000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2142000,
+      "end_ms": 2148000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2148000,
+      "end_ms": 2154000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2154000,
+      "end_ms": 2155000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2154000,
+      "end_ms": 2160000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2166000,
+      "end_ms": 2172000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2178000,
+      "end_ms": 2179000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2184000,
+      "end_ms": 2185000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2184000,
+      "end_ms": 2190000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2190000,
+      "end_ms": 2191000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2190000,
+      "end_ms": 2191000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2190000,
+      "end_ms": 2196000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2196000,
+      "end_ms": 2202000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2250000,
+      "end_ms": 2268000,
+      "action": "Remove",
+      "category": "sex_with_nudity",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2268000,
+      "end_ms": 2274000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2286000,
+      "end_ms": 2287000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2304000,
+      "end_ms": 2305000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2304000,
+      "end_ms": 2310000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2334000,
+      "end_ms": 2340000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2358000,
+      "end_ms": 2364000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2388000,
+      "end_ms": 2389000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2394000,
+      "end_ms": 2395000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2400000,
+      "end_ms": 2406000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2418000,
+      "end_ms": 2419000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2424000,
+      "end_ms": 2430000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2436000,
+      "end_ms": 2442000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2490000,
+      "end_ms": 2496000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2538000,
+      "end_ms": 2544000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2556000,
+      "end_ms": 2562000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2592000,
+      "end_ms": 2593000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2604000,
+      "end_ms": 2610000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2616000,
+      "end_ms": 2622000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3000000,
+      "end_ms": 3001000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3012000,
+      "end_ms": 3018000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3030000,
+      "end_ms": 3031000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3042000,
+      "end_ms": 3043000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3072000,
+      "end_ms": 3073000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3072000,
+      "end_ms": 3078000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3078000,
+      "end_ms": 3084000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3078000,
+      "end_ms": 3096000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3120000,
+      "end_ms": 3126000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3144000,
+      "end_ms": 3150000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3198000,
+      "end_ms": 3204000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3204000,
+      "end_ms": 3205000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3216000,
+      "end_ms": 3217000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3240000,
+      "end_ms": 3241000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3390000,
+      "end_ms": 3402000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3402000,
+      "end_ms": 3403000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3402000,
+      "end_ms": 3408000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3408000,
+      "end_ms": 3409000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3408000,
+      "end_ms": 3414000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3414000,
+      "end_ms": 3420000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3606000,
+      "end_ms": 3618000,
+      "action": "Remove",
+      "category": "life_events",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3786000,
+      "end_ms": 3798000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3804000,
+      "end_ms": 3805000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3816000,
+      "end_ms": 3817000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3864000,
+      "end_ms": 3870000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3870000,
+      "end_ms": 3871000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3876000,
+      "end_ms": 3877000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3894000,
+      "end_ms": 3895000,
+      "action": "Remove",
+      "category": "vulgar_gestures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3906000,
+      "end_ms": 3912000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4080000,
+      "end_ms": 4081000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4098000,
+      "end_ms": 4099000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4272000,
+      "end_ms": 4273000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4314000,
+      "end_ms": 4320000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4356000,
+      "end_ms": 4357000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4368000,
+      "end_ms": 4369000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4572000,
+      "end_ms": 4578000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4620000,
+      "end_ms": 4626000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4626000,
+      "end_ms": 4668000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4626000,
+      "end_ms": 4668000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4668000,
+      "end_ms": 4669000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5094000,
+      "end_ms": 5095000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5124000,
+      "end_ms": 5130000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5286000,
+      "end_ms": 5292000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5292000,
+      "end_ms": 5293000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5292000,
+      "end_ms": 5293000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5346000,
+      "end_ms": 5347000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5472000,
+      "end_ms": 5473000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5484000,
+      "end_ms": 5485000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5490000,
+      "end_ms": 5496000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5502000,
+      "end_ms": 5503000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5502000,
+      "end_ms": 5508000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5520000,
+      "end_ms": 5521000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5586000,
+      "end_ms": 5587000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5598000,
+      "end_ms": 5604000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5610000,
+      "end_ms": 5616000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5682000,
+      "end_ms": 5688000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5700000,
+      "end_ms": 5701000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5718000,
+      "end_ms": 5724000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5748000,
+      "end_ms": 5749000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5748000,
+      "end_ms": 5766000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5844000,
+      "end_ms": 5850000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5862000,
+      "end_ms": 5868000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5880000,
+      "end_ms": 5886000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5904000,
+      "end_ms": 5916000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6012000,
+      "end_ms": 6018000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6024000,
+      "end_ms": 6030000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6096000,
+      "end_ms": 6102000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6300000,
+      "end_ms": 6306000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

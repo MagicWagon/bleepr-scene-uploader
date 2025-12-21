@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt10612922",
+  "title": "One Night in Miami...",
+  "scenes": [
+    {
+      "start_ms": 144000,
+      "end_ms": 150000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 150000,
+      "end_ms": 156000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 162000,
+      "end_ms": 168000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 174000,
+      "end_ms": 175000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 180000,
+      "end_ms": 186000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 756000,
+      "end_ms": 757000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 846000,
+      "end_ms": 852000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1050000,
+      "end_ms": 1056000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1152000,
+      "end_ms": 1158000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1158000,
+      "end_ms": 1159000,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1200000,
+      "end_ms": 1201000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1608000,
+      "end_ms": 1609000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1614000,
+      "end_ms": 1615000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1620000,
+      "end_ms": 1626000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1632000,
+      "end_ms": 1633000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1650000,
+      "end_ms": 1651000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1656000,
+      "end_ms": 1657000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1668000,
+      "end_ms": 1674000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1680000,
+      "end_ms": 1681000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1680000,
+      "end_ms": 1686000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1758000,
+      "end_ms": 1759000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1992000,
+      "end_ms": 1993000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2196000,
+      "end_ms": 2197000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2220000,
+      "end_ms": 2221000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2226000,
+      "end_ms": 2227000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3744000,
+      "end_ms": 3745000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

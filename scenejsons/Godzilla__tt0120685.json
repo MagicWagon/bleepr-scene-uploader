@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt0120685",
+  "title": "Godzilla",
+  "scenes": [
+    {
+      "start_ms": 234000,
+      "end_ms": 246000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 258000,
+      "end_ms": 264000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 324000,
+      "end_ms": 330000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 336000,
+      "end_ms": 337000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1032000,
+      "end_ms": 1038000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1338000,
+      "end_ms": 1344000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1464000,
+      "end_ms": 1465000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1548000,
+      "end_ms": 1554000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1560000,
+      "end_ms": 1566000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1572000,
+      "end_ms": 1584000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1584000,
+      "end_ms": 1585000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1656000,
+      "end_ms": 1662000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1782000,
+      "end_ms": 1783000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1974000,
+      "end_ms": 1975000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1980000,
+      "end_ms": 1981000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1992000,
+      "end_ms": 1993000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2232000,
+      "end_ms": 2238000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2568000,
+      "end_ms": 2569000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2916000,
+      "end_ms": 2922000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2952000,
+      "end_ms": 2958000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3036000,
+      "end_ms": 3037000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3198000,
+      "end_ms": 3199000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3492000,
+      "end_ms": 3498000,
+      "action": "Remove",
+      "category": "life_events",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3810000,
+      "end_ms": 3816000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3816000,
+      "end_ms": 3817000,
+      "action": "Remove",
+      "category": "life_events",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3870000,
+      "end_ms": 3871000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3876000,
+      "end_ms": 3882000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4518000,
+      "end_ms": 4519000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5184000,
+      "end_ms": 5190000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5250000,
+      "end_ms": 5256000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5724000,
+      "end_ms": 5730000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5730000,
+      "end_ms": 5736000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6024000,
+      "end_ms": 6025000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6672000,
+      "end_ms": 6678000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6738000,
+      "end_ms": 6739000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6780000,
+      "end_ms": 6786000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 7392000,
+      "end_ms": 7398000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 7428000,
+      "end_ms": 7434000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 7584000,
+      "end_ms": 7585000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

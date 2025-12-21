@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt1745960",
+  "title": "Top Gun: Maverick",
+  "scenes": [
+    {
+      "start_ms": 222000,
+      "end_ms": 228000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 228000,
+      "end_ms": 234000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 240000,
+      "end_ms": 246000,
+      "action": "Remove",
+      "category": "vulgar_gestures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 252000,
+      "end_ms": 253000,
+      "action": "Remove",
+      "category": "vulgar_gestures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 744000,
+      "end_ms": 745000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1608000,
+      "end_ms": 1609000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1686000,
+      "end_ms": 1687000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1734000,
+      "end_ms": 1735000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1830000,
+      "end_ms": 1831000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1902000,
+      "end_ms": 1914000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2004000,
+      "end_ms": 2010000,
+      "action": "Remove",
+      "category": "vulgar_gestures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3198000,
+      "end_ms": 3204000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3636000,
+      "end_ms": 3637000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3642000,
+      "end_ms": 3643000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3660000,
+      "end_ms": 3661000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3666000,
+      "end_ms": 3667000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3696000,
+      "end_ms": 3697000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3708000,
+      "end_ms": 3714000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3744000,
+      "end_ms": 3745000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3762000,
+      "end_ms": 3763000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3768000,
+      "end_ms": 3774000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3816000,
+      "end_ms": 3996000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4026000,
+      "end_ms": 4027000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4380000,
+      "end_ms": 4386000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4440000,
+      "end_ms": 4441000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5040000,
+      "end_ms": 5041000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6006000,
+      "end_ms": 6012000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6162000,
+      "end_ms": 6168000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6180000,
+      "end_ms": 6181000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6222000,
+      "end_ms": 6223000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6654000,
+      "end_ms": 6660000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6672000,
+      "end_ms": 6678000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6810000,
+      "end_ms": 6816000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6930000,
+      "end_ms": 6936000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 7254000,
+      "end_ms": 7260000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 7290000,
+      "end_ms": 7296000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

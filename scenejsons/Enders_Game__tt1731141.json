@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt1731141",
+  "title": "Ender's Game",
+  "scenes": [
+    {
+      "start_ms": 264000,
+      "end_ms": 276000,
+      "action": "Remove",
+      "category": "medical_graphic",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 300000,
+      "end_ms": 301000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 324000,
+      "end_ms": 342000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 432000,
+      "end_ms": 450000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 780000,
+      "end_ms": 804000,
+      "action": "Remove",
+      "category": "bodily_functions",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 978000,
+      "end_ms": 979000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1020000,
+      "end_ms": 1021000,
+      "action": "Remove",
+      "category": "violence_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1458000,
+      "end_ms": 1459000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1878000,
+      "end_ms": 1884000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1920000,
+      "end_ms": 1926000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1956000,
+      "end_ms": 1957000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1962000,
+      "end_ms": 1968000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2058000,
+      "end_ms": 2059000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2322000,
+      "end_ms": 2323000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2532000,
+      "end_ms": 2538000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2706000,
+      "end_ms": 2712000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2760000,
+      "end_ms": 2766000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2904000,
+      "end_ms": 2910000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3204000,
+      "end_ms": 3210000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3294000,
+      "end_ms": 3295000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3450000,
+      "end_ms": 3462000,
+      "action": "Remove",
+      "category": "nudity_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3504000,
+      "end_ms": 3505000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3510000,
+      "end_ms": 3516000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3516000,
+      "end_ms": 3522000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3534000,
+      "end_ms": 3552000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3594000,
+      "end_ms": 3600000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3648000,
+      "end_ms": 3649000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4242000,
+      "end_ms": 4248000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5844000,
+      "end_ms": 5850000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

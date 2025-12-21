@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt2932536",
+  "title": "47 Meters Down",
+  "scenes": [
+    {
+      "start_ms": 168000,
+      "end_ms": 174000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 180000,
+      "end_ms": 181000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 186000,
+      "end_ms": 204000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 234000,
+      "end_ms": 240000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 270000,
+      "end_ms": 276000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 282000,
+      "end_ms": 288000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 396000,
+      "end_ms": 397000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 396000,
+      "end_ms": 402000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 414000,
+      "end_ms": 420000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 570000,
+      "end_ms": 571000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 576000,
+      "end_ms": 594000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 588000,
+      "end_ms": 594000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 594000,
+      "end_ms": 606000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 876000,
+      "end_ms": 877000,
+      "action": "Remove",
+      "category": "gore",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 882000,
+      "end_ms": 894000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 894000,
+      "end_ms": 895000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 906000,
+      "end_ms": 912000,
+      "action": "Remove",
+      "category": "gore",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 930000,
+      "end_ms": 936000,
+      "action": "Remove",
+      "category": "gore",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1032000,
+      "end_ms": 1033000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1140000,
+      "end_ms": 1141000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1308000,
+      "end_ms": 1320000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1614000,
+      "end_ms": 1615000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1692000,
+      "end_ms": 1710000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1716000,
+      "end_ms": 1740000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1740000,
+      "end_ms": 1752000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1938000,
+      "end_ms": 1974000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2022000,
+      "end_ms": 2028000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2124000,
+      "end_ms": 2125000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2172000,
+      "end_ms": 2173000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2262000,
+      "end_ms": 2263000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2280000,
+      "end_ms": 2286000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2496000,
+      "end_ms": 2508000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2538000,
+      "end_ms": 2539000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3174000,
+      "end_ms": 3175000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3234000,
+      "end_ms": 3240000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3240000,
+      "end_ms": 3252000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3516000,
+      "end_ms": 3517000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3564000,
+      "end_ms": 3570000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3654000,
+      "end_ms": 3655000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3780000,
+      "end_ms": 3781000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3948000,
+      "end_ms": 3960000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4068000,
+      "end_ms": 4074000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4080000,
+      "end_ms": 4086000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4176000,
+      "end_ms": 4188000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4332000,
+      "end_ms": 4344000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4428000,
+      "end_ms": 4434000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4434000,
+      "end_ms": 4452000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4458000,
+      "end_ms": 4464000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4512000,
+      "end_ms": 4524000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4512000,
+      "end_ms": 4524000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4548000,
+      "end_ms": 4560000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4662000,
+      "end_ms": 4668000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4692000,
+      "end_ms": 4698000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4692000,
+      "end_ms": 4698000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4710000,
+      "end_ms": 4711000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4722000,
+      "end_ms": 4728000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4752000,
+      "end_ms": 4770000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4782000,
+      "end_ms": 4788000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4788000,
+      "end_ms": 4794000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4800000,
+      "end_ms": 4824000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4830000,
+      "end_ms": 4854000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

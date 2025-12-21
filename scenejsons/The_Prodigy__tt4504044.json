@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt4504044",
+  "title": "The Prodigy",
+  "scenes": [
+    {
+      "start_ms": 156000,
+      "end_ms": 168000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 378000,
+      "end_ms": 396000,
+      "action": "Remove",
+      "category": "life_events",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 396000,
+      "end_ms": 397000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 396000,
+      "end_ms": 402000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 402000,
+      "end_ms": 403000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 402000,
+      "end_ms": 403000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 408000,
+      "end_ms": 432000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 414000,
+      "end_ms": 432000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 504000,
+      "end_ms": 505000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 588000,
+      "end_ms": 594000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 672000,
+      "end_ms": 673000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 840000,
+      "end_ms": 846000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1032000,
+      "end_ms": 1038000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1038000,
+      "end_ms": 1062000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1344000,
+      "end_ms": 1345000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1620000,
+      "end_ms": 1621000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1626000,
+      "end_ms": 1627000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1824000,
+      "end_ms": 1825000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2538000,
+      "end_ms": 2616000,
+      "action": "Remove",
+      "category": "nudity_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2682000,
+      "end_ms": 2683000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2850000,
+      "end_ms": 2856000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2862000,
+      "end_ms": 2863000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2868000,
+      "end_ms": 2869000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2868000,
+      "end_ms": 2874000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2874000,
+      "end_ms": 2875000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2880000,
+      "end_ms": 2886000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2964000,
+      "end_ms": 2970000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2970000,
+      "end_ms": 2976000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2988000,
+      "end_ms": 2994000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3270000,
+      "end_ms": 3276000,
+      "action": "Remove",
+      "category": "drugs_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3282000,
+      "end_ms": 3288000,
+      "action": "Remove",
+      "category": "sexual_assault",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3288000,
+      "end_ms": 3294000,
+      "action": "Remove",
+      "category": "drugs_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3300000,
+      "end_ms": 3306000,
+      "action": "Remove",
+      "category": "sexual_assault",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3432000,
+      "end_ms": 3438000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3600000,
+      "end_ms": 3601000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3606000,
+      "end_ms": 3612000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3612000,
+      "end_ms": 3613000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3972000,
+      "end_ms": 3978000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3978000,
+      "end_ms": 3984000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4674000,
+      "end_ms": 4675000,
+      "action": "Remove",
+      "category": "bodily_functions",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4788000,
+      "end_ms": 4794000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4794000,
+      "end_ms": 4800000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4800000,
+      "end_ms": 4801000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4800000,
+      "end_ms": 4818000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4824000,
+      "end_ms": 4825000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4830000,
+      "end_ms": 4831000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4848000,
+      "end_ms": 4854000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4860000,
+      "end_ms": 4866000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4878000,
+      "end_ms": 4879000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4950000,
+      "end_ms": 4956000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4956000,
+      "end_ms": 4962000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5040000,
+      "end_ms": 5041000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5070000,
+      "end_ms": 5076000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5076000,
+      "end_ms": 5077000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5094000,
+      "end_ms": 5095000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5106000,
+      "end_ms": 5118000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

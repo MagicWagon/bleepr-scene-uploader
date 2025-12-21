@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt3922810",
+  "title": "Santa Claws",
+  "scenes": [
+    {
+      "start_ms": 78000,
+      "end_ms": 79000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 588000,
+      "end_ms": 589000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 744000,
+      "end_ms": 745000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 756000,
+      "end_ms": 757000,
+      "action": "Remove",
+      "category": "bodily_functions",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 786000,
+      "end_ms": 798000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1098000,
+      "end_ms": 1099000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1110000,
+      "end_ms": 1116000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1116000,
+      "end_ms": 1117000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1134000,
+      "end_ms": 1135000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1740000,
+      "end_ms": 1746000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2196000,
+      "end_ms": 2202000,
+      "action": "Remove",
+      "category": "bodily_functions",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2658000,
+      "end_ms": 2659000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2712000,
+      "end_ms": 2730000,
+      "action": "Remove",
+      "category": "bodily_functions",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2832000,
+      "end_ms": 2838000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2832000,
+      "end_ms": 2844000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2844000,
+      "end_ms": 2845000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2862000,
+      "end_ms": 2863000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2874000,
+      "end_ms": 2875000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2874000,
+      "end_ms": 2880000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3066000,
+      "end_ms": 3067000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3114000,
+      "end_ms": 3115000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3180000,
+      "end_ms": 3186000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3732000,
+      "end_ms": 3733000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3876000,
+      "end_ms": 3877000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4104000,
+      "end_ms": 4110000,
+      "action": "Remove",
+      "category": "bodily_functions",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4122000,
+      "end_ms": 4134000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4134000,
+      "end_ms": 4140000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4146000,
+      "end_ms": 4194000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4194000,
+      "end_ms": 4200000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4416000,
+      "end_ms": 4434000,
+      "action": "Remove",
+      "category": "bodily_functions",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

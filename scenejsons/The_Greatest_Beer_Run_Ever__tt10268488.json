@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt10268488",
+  "title": "The Greatest Beer Run Ever",
+  "scenes": [
+    {
+      "start_ms": 288000,
+      "end_ms": 289000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 288000,
+      "end_ms": 289000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 516000,
+      "end_ms": 522000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 810000,
+      "end_ms": 811000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 816000,
+      "end_ms": 817000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 816000,
+      "end_ms": 822000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1050000,
+      "end_ms": 1051000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1386000,
+      "end_ms": 1387000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1398000,
+      "end_ms": 1399000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1470000,
+      "end_ms": 1471000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1668000,
+      "end_ms": 1669000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1674000,
+      "end_ms": 1675000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1962000,
+      "end_ms": 1963000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2658000,
+      "end_ms": 2659000,
+      "action": "Remove",
+      "category": "bodily_functions",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3012000,
+      "end_ms": 3018000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3084000,
+      "end_ms": 3085000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3336000,
+      "end_ms": 3337000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3654000,
+      "end_ms": 3666000,
+      "action": "Remove",
+      "category": "drugs_illegal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3978000,
+      "end_ms": 3990000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5100000,
+      "end_ms": 5101000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5232000,
+      "end_ms": 5233000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5592000,
+      "end_ms": 5593000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5598000,
+      "end_ms": 5610000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5724000,
+      "end_ms": 5725000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5730000,
+      "end_ms": 5766000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5850000,
+      "end_ms": 5856000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5958000,
+      "end_ms": 5976000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6102000,
+      "end_ms": 6114000,
+      "action": "Remove",
+      "category": "disturbing_images",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6246000,
+      "end_ms": 6270000,
+      "action": "Remove",
+      "category": "medical_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6270000,
+      "end_ms": 6276000,
+      "action": "Remove",
+      "category": "medical_graphic",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

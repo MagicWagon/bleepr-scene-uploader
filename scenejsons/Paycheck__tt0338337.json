@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt0338337",
+  "title": "Paycheck",
+  "scenes": [
+    {
+      "start_ms": 330000,
+      "end_ms": 342000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 354000,
+      "end_ms": 360000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 432000,
+      "end_ms": 433000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 432000,
+      "end_ms": 433000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 432000,
+      "end_ms": 433000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 618000,
+      "end_ms": 619000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 624000,
+      "end_ms": 625000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 792000,
+      "end_ms": 798000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 870000,
+      "end_ms": 876000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 882000,
+      "end_ms": 883000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 924000,
+      "end_ms": 930000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 936000,
+      "end_ms": 937000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 948000,
+      "end_ms": 966000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 996000,
+      "end_ms": 1002000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1188000,
+      "end_ms": 1189000,
+      "action": "Remove",
+      "category": "medical_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1194000,
+      "end_ms": 1195000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1740000,
+      "end_ms": 1764000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1794000,
+      "end_ms": 1795000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1848000,
+      "end_ms": 1849000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1926000,
+      "end_ms": 1932000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1938000,
+      "end_ms": 1939000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1944000,
+      "end_ms": 1945000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1950000,
+      "end_ms": 1951000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1956000,
+      "end_ms": 1957000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1980000,
+      "end_ms": 1992000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2010000,
+      "end_ms": 2016000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2046000,
+      "end_ms": 2052000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2088000,
+      "end_ms": 2089000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2124000,
+      "end_ms": 2125000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2220000,
+      "end_ms": 2221000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2400000,
+      "end_ms": 2406000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2550000,
+      "end_ms": 2551000,
+      "action": "Remove",
+      "category": "drugs_legal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2562000,
+      "end_ms": 2563000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2568000,
+      "end_ms": 2574000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2646000,
+      "end_ms": 2647000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3048000,
+      "end_ms": 3049000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3090000,
+      "end_ms": 3096000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3114000,
+      "end_ms": 3120000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3126000,
+      "end_ms": 3144000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3228000,
+      "end_ms": 3234000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3240000,
+      "end_ms": 3246000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3252000,
+      "end_ms": 3253000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3270000,
+      "end_ms": 3276000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3324000,
+      "end_ms": 3325000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3408000,
+      "end_ms": 3409000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3450000,
+      "end_ms": 3451000,
+      "action": "Remove",
+      "category": "medical_procedures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3534000,
+      "end_ms": 3535000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3576000,
+      "end_ms": 3582000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4170000,
+      "end_ms": 4176000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4212000,
+      "end_ms": 4218000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4386000,
+      "end_ms": 4387000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4416000,
+      "end_ms": 4428000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4530000,
+      "end_ms": 4531000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4548000,
+      "end_ms": 4554000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4644000,
+      "end_ms": 4650000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4806000,
+      "end_ms": 4812000,
+      "action": "Remove",
+      "category": "kissing_passion",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4836000,
+      "end_ms": 4837000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4878000,
+      "end_ms": 4884000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5094000,
+      "end_ms": 5106000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5598000,
+      "end_ms": 5599000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5622000,
+      "end_ms": 5623000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5796000,
+      "end_ms": 5797000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5802000,
+      "end_ms": 5808000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5814000,
+      "end_ms": 5815000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5814000,
+      "end_ms": 5820000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5874000,
+      "end_ms": 5880000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5886000,
+      "end_ms": 5887000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5898000,
+      "end_ms": 5899000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5904000,
+      "end_ms": 5910000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5910000,
+      "end_ms": 5916000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5922000,
+      "end_ms": 5923000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5934000,
+      "end_ms": 5946000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5952000,
+      "end_ms": 5958000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5964000,
+      "end_ms": 5976000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5976000,
+      "end_ms": 5982000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5982000,
+      "end_ms": 5988000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5994000,
+      "end_ms": 6000000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6006000,
+      "end_ms": 6012000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6036000,
+      "end_ms": 6078000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6108000,
+      "end_ms": 6114000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6114000,
+      "end_ms": 6120000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6126000,
+      "end_ms": 6132000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6138000,
+      "end_ms": 6144000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6204000,
+      "end_ms": 6246000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6258000,
+      "end_ms": 6282000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6288000,
+      "end_ms": 6289000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6330000,
+      "end_ms": 6336000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6456000,
+      "end_ms": 6462000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6468000,
+      "end_ms": 6469000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6480000,
+      "end_ms": 6486000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6510000,
+      "end_ms": 6516000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6552000,
+      "end_ms": 6558000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6720000,
+      "end_ms": 6726000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

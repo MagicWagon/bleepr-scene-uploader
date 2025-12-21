@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt0780504",
+  "title": "Drive",
+  "scenes": [
+    {
+      "start_ms": 1266000,
+      "end_ms": 1267000,
+      "action": "Remove",
+      "category": "vulgar_gestures",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 1308000,
+      "end_ms": 1309000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1308000,
+      "end_ms": 1309000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1884000,
+      "end_ms": 1885000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2532000,
+      "end_ms": 2562000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2604000,
+      "end_ms": 2616000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2616000,
+      "end_ms": 2628000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2634000,
+      "end_ms": 2646000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2652000,
+      "end_ms": 2658000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2664000,
+      "end_ms": 2670000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3228000,
+      "end_ms": 3229000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3240000,
+      "end_ms": 3246000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3528000,
+      "end_ms": 3534000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3660000,
+      "end_ms": 3666000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3696000,
+      "end_ms": 3702000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3708000,
+      "end_ms": 3714000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3720000,
+      "end_ms": 3750000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3762000,
+      "end_ms": 3780000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3852000,
+      "end_ms": 3870000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3888000,
+      "end_ms": 3894000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3888000,
+      "end_ms": 3900000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3912000,
+      "end_ms": 3924000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3936000,
+      "end_ms": 3942000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3948000,
+      "end_ms": 3990000,
+      "action": "Remove",
+      "category": "nudity_without_sex",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4338000,
+      "end_ms": 4344000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4344000,
+      "end_ms": 4362000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4590000,
+      "end_ms": 4591000,
+      "action": "Remove",
+      "category": "racial_slurs",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4638000,
+      "end_ms": 4650000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4830000,
+      "end_ms": 4836000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5160000,
+      "end_ms": 5172000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5262000,
+      "end_ms": 5268000,
+      "action": "Remove",
+      "category": "violence_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5526000,
+      "end_ms": 5532000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5538000,
+      "end_ms": 5539000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5544000,
+      "end_ms": 5568000,
+      "action": "Remove",
+      "category": "violence_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5580000,
+      "end_ms": 5592000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 5586000,
+      "end_ms": 5676000,
+      "action": "Remove",
+      "category": "graphic",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}

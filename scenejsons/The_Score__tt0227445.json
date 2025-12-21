@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "imdb_id": "tt0227445",
+  "title": "The Score",
+  "scenes": [
+    {
+      "start_ms": 204000,
+      "end_ms": 210000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 210000,
+      "end_ms": 246000,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 258000,
+      "end_ms": 270000,
+      "action": "Remove",
+      "category": "drugs_illegal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 276000,
+      "end_ms": 282000,
+      "action": "Remove",
+      "category": "drugs_illegal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 300000,
+      "end_ms": 301000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 990000,
+      "end_ms": 991000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 996000,
+      "end_ms": 1002000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1140000,
+      "end_ms": 1141000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1260000,
+      "end_ms": 1261000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1338000,
+      "end_ms": 1356000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1362000,
+      "end_ms": 1368000,
+      "action": "Remove",
+      "category": "immodesty",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1446000,
+      "end_ms": 1458000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1470000,
+      "end_ms": 1476000,
+      "action": "Remove",
+      "category": "non_graphic",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1818000,
+      "end_ms": 1819000,
+      "action": "Remove",
+      "category": "vulgar_gestures",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 1848000,
+      "end_ms": 1854000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2820000,
+      "end_ms": 2826000,
+      "action": "Remove",
+      "category": "kissing_normal",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4320000,
+      "end_ms": 4321000,
+      "action": "Remove",
+      "category": "nudity_art",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}
