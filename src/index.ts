@@ -1,4 +1,4 @@
-import { SignJWT, importPKCS8, importPKCS1 } from "jose";
+import { SignJWT, importPKCS8 } from "jose";
 
 type Env = {
   GITHUB_APP_ID: string;
@@ -66,13 +66,7 @@ async function mintAppJwt(env: Env): Promise<string> {
   const now = Math.floor(Date.now() / 1000);
   const header = { alg: "RS256", typ: "JWT" };
 
-  // GitHub private keys are commonly PKCS#1; support both PKCS#1 and PKCS#8.
-  let key: CryptoKey;
-  if (pem.includes("BEGIN RSA PRIVATE KEY")) {
-    key = await importPKCS1(pem, "RS256");
-  } else {
-    key = await importPKCS8(pem, "RS256");
-  }
+  const key = await importPKCS8(pem, "RS256");
 
   return await new SignJWT({})
     .setProtectedHeader(header)
