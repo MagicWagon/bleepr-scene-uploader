@@ -98,10 +98,22 @@ function sanitizeScenePath(scenePath: string): string | null {
   const p = (scenePath || "").trim();
   if (!p) return null;
   if (p.startsWith("/") || p.includes("\\") || p.includes("..")) return null;
-  if (!(p.startsWith("movies/") || p.startsWith("shows/") || p.startsWith("scenejsons/"))) return null;
+  if (!(p.startsWith("movies/") || p.startsWith("shows/") || p.startsWith("audiobooks/") || p.startsWith("scenejsons/"))) {
+    return null;
+  }
   if (!p.endsWith(".json")) return null;
   if (p.length > 220) return null;
   return p;
+}
+
+function slugifyBranchPart(input: string, maxLen = 60): string {
+  const safe = (input || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
+  const trimmed = safe.slice(0, Math.max(1, maxLen));
+  return trimmed || "item";
 }
 
 export class Challenges {
@@ -529,47 +541,53 @@ export default {
     }
 
     const contentType = String(sceneList.content_type || "").trim().toLowerCase();
-    if (contentType !== "movie" && contentType !== "episode") {
-      return jsonError(400, "bad_content_type", "scene_list.content_type must be movie or episode.");
+    if (contentType !== "movie" && contentType !== "episode" && contentType !== "audiobook") {
+      return jsonError(400, "bad_content_type", "scene_list.content_type must be movie, episode, or audiobook.");
     }
 
-    const ids = sceneList.ids;
-    if (!ids || typeof ids !== "object") {
-      return jsonError(400, "bad_ids", "scene_list.ids must be an object.");
-    }
-    const tmdb = (ids as any).tmdb;
-    if (!tmdb || typeof tmdb !== "object") {
-      return jsonError(400, "bad_tmdb", "scene_list.ids.tmdb must be an object.");
-    }
-    const tmdbType = String((tmdb as any).type || "").trim().toLowerCase();
-    const tmdbId = Number((tmdb as any).id || 0) || 0;
-    if (!Number.isFinite(tmdbId) || tmdbId <= 0 || (tmdbType !== "movie" && tmdbType !== "tv")) {
-      return jsonError(400, "bad_tmdb", "scene_list.ids.tmdb.type must be movie|tv and id must be a positive integer.");
-    }
-    if (contentType === "movie" && tmdbType !== "movie") {
-      return jsonError(400, "bad_tmdb", "Movie submissions must use ids.tmdb.type = movie.");
-    }
-    if (contentType === "episode" && tmdbType !== "tv") {
-      return jsonError(400, "bad_tmdb", "Episode submissions must use ids.tmdb.type = tv.");
-    }
-
-    const imdbIdRaw = String((ids as any).imdb || "").trim();
-    const imdbId = imdbIdRaw ? imdbIdRaw.toLowerCase() : "";
-    if (imdbId && !/^tt\d{7,9}$/.test(imdbId)) {
-      return jsonError(400, "bad_imdb_id", "scene_list.ids.imdb must look like tt1234567 (or be omitted).");
-    }
-
+    let tmdbType = "";
+    let tmdbId = 0;
+    let imdbId = "";
     let seasonNumber = 0;
     let episodeNumber = 0;
-    if (contentType === "episode") {
-      const episode = sceneList.episode;
-      if (!episode || typeof episode !== "object") {
-        return jsonError(400, "bad_episode", "scene_list.episode must be an object for episode submissions.");
+
+    if (contentType !== "audiobook") {
+      const ids = sceneList.ids;
+      if (!ids || typeof ids !== "object") {
+        return jsonError(400, "bad_ids", "scene_list.ids must be an object.");
       }
-      seasonNumber = Number((episode as any).season_number || 0) || 0;
-      episodeNumber = Number((episode as any).episode_number || 0) || 0;
-      if (!Number.isFinite(seasonNumber) || !Number.isFinite(episodeNumber) || seasonNumber <= 0 || episodeNumber <= 0) {
-        return jsonError(400, "bad_episode", "scene_list.episode.season_number and episode_number must be positive integers.");
+      const tmdb = (ids as any).tmdb;
+      if (!tmdb || typeof tmdb !== "object") {
+        return jsonError(400, "bad_tmdb", "scene_list.ids.tmdb must be an object.");
+      }
+      tmdbType = String((tmdb as any).type || "").trim().toLowerCase();
+      tmdbId = Number((tmdb as any).id || 0) || 0;
+      if (!Number.isFinite(tmdbId) || tmdbId <= 0 || (tmdbType !== "movie" && tmdbType !== "tv")) {
+        return jsonError(400, "bad_tmdb", "scene_list.ids.tmdb.type must be movie|tv and id must be a positive integer.");
+      }
+      if (contentType === "movie" && tmdbType !== "movie") {
+        return jsonError(400, "bad_tmdb", "Movie submissions must use ids.tmdb.type = movie.");
+      }
+      if (contentType === "episode" && tmdbType !== "tv") {
+        return jsonError(400, "bad_tmdb", "Episode submissions must use ids.tmdb.type = tv.");
+      }
+
+      const imdbIdRaw = String((ids as any).imdb || "").trim();
+      imdbId = imdbIdRaw ? imdbIdRaw.toLowerCase() : "";
+      if (imdbId && !/^tt\d{7,9}$/.test(imdbId)) {
+        return jsonError(400, "bad_imdb_id", "scene_list.ids.imdb must look like tt1234567 (or be omitted).");
+      }
+
+      if (contentType === "episode") {
+        const episode = sceneList.episode;
+        if (!episode || typeof episode !== "object") {
+          return jsonError(400, "bad_episode", "scene_list.episode must be an object for episode submissions.");
+        }
+        seasonNumber = Number((episode as any).season_number || 0) || 0;
+        episodeNumber = Number((episode as any).episode_number || 0) || 0;
+        if (!Number.isFinite(seasonNumber) || !Number.isFinite(episodeNumber) || seasonNumber <= 0 || episodeNumber <= 0) {
+          return jsonError(400, "bad_episode", "scene_list.episode.season_number and episode_number must be positive integers.");
+        }
       }
     }
 
@@ -583,7 +601,7 @@ export default {
 
     const scenePath = sanitizeScenePath(String(scenePathRaw || ""));
     if (!scenePath) {
-      return jsonError(400, "bad_scene_path", "scene_path must be under movies/ or shows/ and end with .json.");
+      return jsonError(400, "bad_scene_path", "scene_path must be under movies/, shows/, or audiobooks/ and end with .json.");
     }
 
     if (rawBytes > MAX_SUBMIT_BYTES) return jsonError(413, "payload_too_large", "Payload too large.");
@@ -609,7 +627,19 @@ export default {
       const baseSha = String(refInfo?.object?.sha || "");
       if (!baseSha) throw new Error("Missing base SHA.");
 
-      const branchKey = contentType === "episode" ? `tmdb_${tmdbType}_${tmdbId}_s${String(seasonNumber).padStart(2, '0')}e${String(episodeNumber).padStart(2, '0')}` : `tmdb_${tmdbType}_${tmdbId}`;
+      let branchKey = "";
+      if (contentType === "episode") {
+        branchKey = `tmdb_${tmdbType}_${tmdbId}_s${String(seasonNumber).padStart(2, "0")}e${String(episodeNumber).padStart(2, "0")}`;
+      } else if (contentType === "movie") {
+        branchKey = `tmdb_${tmdbType}_${tmdbId}`;
+      } else {
+        const titleRaw = String(sceneList.title || "").trim() || "audiobook";
+        const book = sceneList.audiobook;
+        const isbnRaw = typeof book === "object" && book ? String((book as any).isbn || "").trim() : "";
+        const titleSlug = slugifyBranchPart(titleRaw);
+        const isbnSlug = isbnRaw ? slugifyBranchPart(isbnRaw, 24) : "";
+        branchKey = isbnSlug ? `audiobook_${isbnSlug}_${titleSlug}` : `audiobook_${titleSlug}`;
+      }
 
       const branch = `bleepr/upload/${branchKey}/${Date.now()}`;
 
@@ -620,11 +650,16 @@ export default {
       });
 
       // Upload scene file
+      const uploadMessage =
+        contentType === "audiobook"
+          ? `Add audiobook scene list for ${sceneList.title || branchKey}`
+          : `Add scene list for ${sceneList.title || branchKey} (tmdb:${tmdbType}:${tmdbId}${imdbId ? ` imdb:${imdbId}` : ""})`;
+
       await githubFetch(installationToken, `https://api.github.com/repos/${OWNER}/${REPO}/contents/${scenePath}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          message: `Add scene list for ${sceneList.title || branchKey} (tmdb:${tmdbType}:${tmdbId}${imdbId ? ` imdb:${imdbId}` : ""})`,
+          message: uploadMessage,
           content: base64encodeUtf8(JSON.stringify(sceneList, null, 2)),
           branch,
         }),
@@ -648,11 +683,14 @@ export default {
       if (!indexJson || typeof indexJson !== "object") indexJson = {};
       if (!Array.isArray(indexJson.movies)) indexJson.movies = [];
       if (!Array.isArray(indexJson.episodes)) indexJson.episodes = [];
-      if (!indexJson.schema_version) indexJson.schema_version = 2;
+      if (!Array.isArray(indexJson.audiobooks)) indexJson.audiobooks = [];
+      const indexSchema = Number(indexJson.schema_version || 0) || 0;
+      if (indexSchema < 2) indexJson.schema_version = 2;
 
       const title = String(sceneList.title || "").trim();
       const createdAt = String(sceneList.created_at || "").trim();
       const durationMs = Number(sceneList.video_duration_ms || 0) || 0;
+      const audioDurationMs = Number(sceneList.audio_duration_ms || 0) || 0;
       const label = String(sceneList.label || "").trim();
 
       if (contentType === "movie") {
@@ -683,27 +721,57 @@ export default {
           video_duration_ms: durationMs,
           label,
         });
+      } else {
+        if (Number(indexJson.schema_version || 0) < 3) indexJson.schema_version = 3;
+        const audiobookMeta = sceneList.audiobook && typeof sceneList.audiobook === "object" ? sceneList.audiobook : null;
+        indexJson.audiobooks.push({
+          title,
+          year: Number(sceneList.year || 0) || 0,
+          path: scenePath,
+          created_at: createdAt,
+          audio_duration_ms: audioDurationMs,
+          label,
+          audiobook: audiobookMeta || undefined,
+        });
       }
+
+      const indexMessage =
+        contentType === "audiobook"
+          ? `Update index for audiobook ${sceneList.title || branchKey}`
+          : `Update index for ${sceneList.title || branchKey} (tmdb:${tmdbType}:${tmdbId})`;
 
       await githubFetch(installationToken, `https://api.github.com/repos/${OWNER}/${REPO}/contents/index.json`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          message: `Update index for ${sceneList.title || branchKey} (tmdb:${tmdbType}:${tmdbId})`,
+          message: indexMessage,
           content: base64encodeUtf8(JSON.stringify(indexJson, null, 2)),
           sha: indexSha,
           branch,
         }),
       });
 
+      let prTitle = `Add scene list: ${sceneList.title || branchKey}`;
+      let prBody = "";
+      if (contentType === "audiobook") {
+        const audiobookMeta = sceneList.audiobook && typeof sceneList.audiobook === "object" ? sceneList.audiobook : null;
+        const author = audiobookMeta ? String((audiobookMeta as any).author || "").trim() : "";
+        const narrator = audiobookMeta ? String((audiobookMeta as any).narrator || "").trim() : "";
+        const isbn = audiobookMeta ? String((audiobookMeta as any).isbn || "").trim() : "";
+        prBody = `Type: audiobook\nAuthor: ${author || "(none)"}\nNarrator: ${narrator || "(none)"}\nISBN: ${isbn || "(none)"}\nPath: ${scenePath}\nCreated: ${sceneList.created_at || ""}\n`;
+      } else {
+        prTitle = `Add scene list: ${sceneList.title || branchKey} (tmdb:${tmdbType}:${tmdbId})`;
+        prBody = `TMDb: ${tmdbType}:${tmdbId}\nIMDb: ${imdbId || "(none)"}\nType: ${contentType}${contentType === "episode" ? `\nSeason: ${seasonNumber}\nEpisode: ${episodeNumber}` : ""}\nPath: ${scenePath}\nCreated: ${sceneList.created_at || ""}\n`;
+      }
+
       const pr = await githubFetch(installationToken, `https://api.github.com/repos/${OWNER}/${REPO}/pulls`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          title: `Add scene list: ${sceneList.title || branchKey} (tmdb:${tmdbType}:${tmdbId})`,
+          title: prTitle,
           head: `${OWNER}:${branch}`,
           base: baseBranch,
-          body: `TMDb: ${tmdbType}:${tmdbId}\nIMDb: ${imdbId || "(none)"}\nType: ${contentType}${contentType === "episode" ? `\nSeason: ${seasonNumber}\nEpisode: ${episodeNumber}` : ""}\nPath: ${scenePath}\nCreated: ${sceneList.created_at || ""}\n`,
+          body: prBody,
         }),
       });
 
