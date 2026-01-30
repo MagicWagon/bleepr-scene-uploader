@@ -704,7 +704,7 @@ export default {
           video_duration_ms: durationMs,
           label,
         });
-      } else {
+      } else if (contentType === "episode") {
         const seriesTitle = String(sceneList.series?.title || "").trim();
         const episodeTitle = String(sceneList.episode?.title || "").trim();
         indexJson.episodes.push({
