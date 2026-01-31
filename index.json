@@ -10461,6 +10461,19 @@
         "author": "Andy Weir",
         "narrator": "Ray Porter"
       }
+    },
+    {
+      "title": "Project Hail Mary",
+      "year": 2021,
+      "path": "audiobooks/asin_B08G9PRS1K/Project_Hail_Mary__asin_B08G9PRS1K__20260131-0242.json",
+      "created_at": "2026-01-31T02:42:52Z",
+      "audio_duration_ms": 58253084,
+      "label": "Removes talk of casual sex.",
+      "audiobook": {
+        "author": "Andy Weir",
+        "narrator": "Ray Porter",
+        "asin": "B08G9PRS1K"
+      }
     }
   ]
 }
