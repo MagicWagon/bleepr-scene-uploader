@@ -1,0 +1,111 @@
+{
+  "schema_version": 3,
+  "content_type": "movie",
+  "ids": {
+    "tmdb": {
+      "type": "movie",
+      "id": 607
+    },
+    "imdb": "tt0119654"
+  },
+  "title": "Men in Black",
+  "year": 1997,
+  "video_duration_ms": 20311,
+  "created_at": "2026-02-15T22:23:40Z",
+  "label": "",
+  "source_app": {
+    "name": "Bleepr"
+  },
+  "scenes": [
+    {
+      "start_ms": 1960,
+      "end_ms": 2210,
+      "action": "Blackout",
+      "category": "",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4770,
+      "end_ms": 5505,
+      "action": "Remove",
+      "category": "",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 6142,
+      "end_ms": 6506,
+      "action": "Remove",
+      "category": "",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 7429,
+      "end_ms": 8102,
+      "action": "Remove",
+      "category": "blasphemy",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 8903,
+      "end_ms": 10041,
+      "action": "Blur",
+      "category": "",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 12470,
+      "end_ms": 13847,
+      "action": "Remove",
+      "category": "",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 14381,
+      "end_ms": 14938,
+      "action": "Remove",
+      "category": "blasphemy",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 14898,
+      "end_ms": 15561,
+      "action": "Remove",
+      "category": "",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 15511,
+      "end_ms": 16261,
+      "action": "Remove",
+      "category": "",
+      "note": "",
+      "text": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 16433,
+      "end_ms": 17170,
+      "action": "Remove",
+      "category": "",
+      "note": "",
+      "text": "",
+      "enabled": true
+    }
+  ]
+}
