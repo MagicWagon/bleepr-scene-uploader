@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "catalog_updated_at": "2026-03-26T14:43:44.133Z",
+  "catalog_updated_at": "2026-03-26T16:48:28.916Z",
   "movies": [
     {
       "scene_list_id": "legacy_0b38f1139484",
@@ -25924,6 +25924,25 @@
         },
         "imdb": "tt3688342"
       }
+    },
+    {
+      "scene_list_id": "01KMNGQW6Y0TAF224ZMRD0NWJ6",
+      "work_id": "tmdb:movie:2280",
+      "content_type": "movie",
+      "title": "Big",
+      "path": "movies/tmdb_movie_2280/01KMNGQW6Y0TAF224ZMRD0NWJ6.json",
+      "scene_count": 4,
+      "submitted_at": "2026-03-26T16:48:16Z",
+      "label": "Removes objectionable and sexual content",
+      "ids": {
+        "tmdb": {
+          "type": "movie",
+          "id": 2280
+        },
+        "imdb": "tt0094737"
+      },
+      "year": 1988,
+      "video_duration_ms": 7825026
     }
   ],
   "episodes": [
