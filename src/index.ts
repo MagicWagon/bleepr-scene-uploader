@@ -116,6 +116,26 @@ function slugifyBranchPart(input: string, maxLen = 60): string {
   return trimmed || "item";
 }
 
+function isValidSceneListId(value: unknown): value is string {
+  return /^[0-9A-HJKMNP-TV-Z]{26}$/.test(String(value || "").trim());
+}
+
+function isValidAsin(value: unknown): boolean {
+  return /^[A-Z0-9]{10}$/i.test(String(value || "").trim());
+}
+
+function expectedMovieScenePath(sceneListId: string, tmdbId: number): string {
+  return `movies/tmdb_movie_${tmdbId}/${sceneListId}.json`;
+}
+
+function expectedEpisodeScenePath(sceneListId: string, tmdbId: number, seasonNumber: number, episodeNumber: number): string {
+  return `shows/tmdb_tv_${tmdbId}/season${String(seasonNumber).padStart(2, "0")}/episode${String(episodeNumber).padStart(2, "0")}/${sceneListId}.json`;
+}
+
+function expectedAudiobookScenePath(sceneListId: string, asin: string): string {
+  return `audiobooks/asin_${asin.toUpperCase()}/${sceneListId}.json`;
+}
+
 export class Challenges {
   constructor(
     private readonly state: any,
@@ -536,8 +556,8 @@ export default {
     }
 
     const schemaVersion = Number(sceneList.schema_version || 0);
-    if (schemaVersion !== 3) {
-      return jsonError(400, "bad_schema", "scene_list.schema_version must be 3.");
+    if (schemaVersion !== 4) {
+      return jsonError(400, "bad_schema", "scene_list.schema_version must be 4.");
     }
 
     const contentType = String(sceneList.content_type || "").trim().toLowerCase();
@@ -545,11 +565,22 @@ export default {
       return jsonError(400, "bad_content_type", "scene_list.content_type must be movie, episode, or audiobook.");
     }
 
+    const sceneListId = String(sceneList.scene_list_id || "").trim();
+    if (!isValidSceneListId(sceneListId)) {
+      return jsonError(400, "bad_scene_list_id", "scene_list.scene_list_id must be a ULID.");
+    }
+
+    const workId = String(sceneList.work_id || "").trim();
+    if (!workId) {
+      return jsonError(400, "bad_work_id", "scene_list.work_id is required.");
+    }
+
     let tmdbType = "";
     let tmdbId = 0;
     let imdbId = "";
     let seasonNumber = 0;
     let episodeNumber = 0;
+    let asin = "";
 
     if (contentType !== "audiobook") {
       const ids = sceneList.ids;
@@ -579,15 +610,33 @@ export default {
       }
 
       if (contentType === "episode") {
-        const episode = sceneList.episode;
-        if (!episode || typeof episode !== "object") {
-          return jsonError(400, "bad_episode", "scene_list.episode must be an object for episode submissions.");
-        }
-        seasonNumber = Number((episode as any).season_number || 0) || 0;
-        episodeNumber = Number((episode as any).episode_number || 0) || 0;
+        seasonNumber = Number(sceneList.season_number || 0) || 0;
+        episodeNumber = Number(sceneList.episode_number || 0) || 0;
         if (!Number.isFinite(seasonNumber) || !Number.isFinite(episodeNumber) || seasonNumber <= 0 || episodeNumber <= 0) {
-          return jsonError(400, "bad_episode", "scene_list.episode.season_number and episode_number must be positive integers.");
+          return jsonError(400, "bad_episode", "scene_list.season_number and episode_number must be positive integers.");
         }
+        const expectedWorkId = `tmdb:tv:${tmdbId}:s${String(seasonNumber).padStart(2, "0")}e${String(episodeNumber).padStart(2, "0")}`;
+        if (workId !== expectedWorkId) {
+          return jsonError(400, "bad_work_id", `scene_list.work_id must be ${expectedWorkId}.`);
+        }
+      } else {
+        const expectedWorkId = `tmdb:movie:${tmdbId}`;
+        if (workId !== expectedWorkId) {
+          return jsonError(400, "bad_work_id", `scene_list.work_id must be ${expectedWorkId}.`);
+        }
+      }
+    } else {
+      const audiobook = sceneList.audiobook;
+      if (!audiobook || typeof audiobook !== "object") {
+        return jsonError(400, "bad_audiobook", "scene_list.audiobook must be an object.");
+      }
+      asin = String((audiobook as any).asin || "").trim().toUpperCase();
+      if (!isValidAsin(asin)) {
+        return jsonError(400, "bad_asin", "scene_list.audiobook.asin must be a valid ASIN.");
+      }
+      const expectedWorkId = `asin:${asin}`;
+      if (workId !== expectedWorkId) {
+        return jsonError(400, "bad_work_id", `scene_list.work_id must be ${expectedWorkId}.`);
       }
     }
 
@@ -602,6 +651,15 @@ export default {
     const scenePath = sanitizeScenePath(String(scenePathRaw || ""));
     if (!scenePath) {
       return jsonError(400, "bad_scene_path", "scene_path must be under movies/, shows/, or audiobooks/ and end with .json.");
+    }
+    const expectedScenePath =
+      contentType === "movie"
+        ? expectedMovieScenePath(sceneListId, tmdbId)
+        : contentType === "episode"
+          ? expectedEpisodeScenePath(sceneListId, tmdbId, seasonNumber, episodeNumber)
+          : expectedAudiobookScenePath(sceneListId, asin);
+    if (scenePath !== expectedScenePath) {
+      return jsonError(400, "bad_scene_path", `scene_path must be ${expectedScenePath}.`);
     }
 
     if (rawBytes > MAX_SUBMIT_BYTES) return jsonError(413, "payload_too_large", "Payload too large.");
@@ -635,10 +693,10 @@ export default {
       } else {
         const titleRaw = String(sceneList.title || "").trim() || "audiobook";
         const book = sceneList.audiobook;
-        const isbnRaw = typeof book === "object" && book ? String((book as any).isbn || "").trim() : "";
+        const asinRaw = typeof book === "object" && book ? String((book as any).asin || "").trim().toUpperCase() : "";
         const titleSlug = slugifyBranchPart(titleRaw);
-        const isbnSlug = isbnRaw ? slugifyBranchPart(isbnRaw, 24) : "";
-        branchKey = isbnSlug ? `audiobook_${isbnSlug}_${titleSlug}` : `audiobook_${titleSlug}`;
+        const asinSlug = asinRaw ? slugifyBranchPart(asinRaw, 24) : "";
+        branchKey = asinSlug ? `audiobook_${asinSlug}_${titleSlug}` : `audiobook_${titleSlug}`;
       }
 
       const branch = `bleepr/upload/${branchKey}/${Date.now()}`;
@@ -684,54 +742,72 @@ export default {
       if (!Array.isArray(indexJson.movies)) indexJson.movies = [];
       if (!Array.isArray(indexJson.episodes)) indexJson.episodes = [];
       if (!Array.isArray(indexJson.audiobooks)) indexJson.audiobooks = [];
-      const indexSchema = Number(indexJson.schema_version || 0) || 0;
-      if (indexSchema < 2) indexJson.schema_version = 2;
+      delete (indexJson as any).generated_at;
+      delete (indexJson as any).source;
+      indexJson.schema_version = 4;
 
       const title = String(sceneList.title || "").trim();
-      const createdAt = String(sceneList.created_at || "").trim();
+      const submittedAt = String(sceneList.submitted_at || "").trim();
       const durationMs = Number(sceneList.video_duration_ms || 0) || 0;
       const audioDurationMs = Number(sceneList.audio_duration_ms || 0) || 0;
       const label = String(sceneList.label || "").trim();
+      const sceneCount = Array.isArray(sceneList.scenes) ? sceneList.scenes.length : 0;
+      indexJson.catalog_updated_at = new Date().toISOString();
 
       if (contentType === "movie") {
         indexJson.movies.push({
-          imdb_id: imdbId || `tmdb_movie_${tmdbId}`,
-          tmdb: { type: tmdbType, id: tmdbId },
+          scene_list_id: sceneListId,
+          work_id: workId,
+          content_type: "movie",
           title,
-          year: Number(sceneList.year || 0) || 0,
           path: scenePath,
-          created_at: createdAt,
-          video_duration_ms: durationMs,
-          label,
+          scene_count: sceneCount,
+          ...(submittedAt ? { submitted_at: submittedAt } : {}),
+          ...(label ? { label } : {}),
+          ids: {
+            tmdb: { type: tmdbType, id: tmdbId },
+            ...(imdbId ? { imdb: imdbId } : {}),
+          },
+          ...(Number(sceneList.year || 0) || 0 ? { year: Number(sceneList.year || 0) || 0 } : {}),
+          ...(durationMs ? { video_duration_ms: durationMs } : {}),
         });
       } else if (contentType === "episode") {
-        const seriesTitle = String(sceneList.series?.title || "").trim();
-        const episodeTitle = String(sceneList.episode?.title || "").trim();
+        const seriesTitle = String(sceneList.series_title || "").trim();
+        const episodeTitle = String(sceneList.episode_title || "").trim();
         indexJson.episodes.push({
-          tmdb: { type: tmdbType, id: tmdbId },
-          imdb_id: imdbId || "",
+          scene_list_id: sceneListId,
+          work_id: workId,
+          content_type: "episode",
+          title,
+          path: scenePath,
+          scene_count: sceneCount,
+          ...(submittedAt ? { submitted_at: submittedAt } : {}),
+          ...(label ? { label } : {}),
+          ids: {
+            tmdb: { type: tmdbType, id: tmdbId },
+            ...(imdbId ? { imdb: imdbId } : {}),
+          },
           series_title: seriesTitle,
           season_number: seasonNumber,
           episode_number: episodeNumber,
-          episode_title: episodeTitle,
-          title,
-          year: Number(sceneList.year || 0) || 0,
-          path: scenePath,
-          created_at: createdAt,
-          video_duration_ms: durationMs,
-          label,
+          ...(episodeTitle ? { episode_title: episodeTitle } : {}),
+          ...(Number(sceneList.year || 0) || 0 ? { year: Number(sceneList.year || 0) || 0 } : {}),
+          ...(durationMs ? { video_duration_ms: durationMs } : {}),
         });
       } else {
-        if (Number(indexJson.schema_version || 0) < 3) indexJson.schema_version = 3;
         const audiobookMeta = sceneList.audiobook && typeof sceneList.audiobook === "object" ? sceneList.audiobook : null;
         indexJson.audiobooks.push({
+          scene_list_id: sceneListId,
+          work_id: workId,
+          content_type: "audiobook",
           title,
-          year: Number(sceneList.year || 0) || 0,
           path: scenePath,
-          created_at: createdAt,
-          audio_duration_ms: audioDurationMs,
-          label,
-          audiobook: audiobookMeta || undefined,
+          scene_count: sceneCount,
+          ...(submittedAt ? { submitted_at: submittedAt } : {}),
+          ...(label ? { label } : {}),
+          ...(Number(sceneList.year || 0) || 0 ? { year: Number(sceneList.year || 0) || 0 } : {}),
+          ...(audioDurationMs ? { audio_duration_ms: audioDurationMs } : {}),
+          ...(audiobookMeta ? { audiobook: audiobookMeta } : {}),
         });
       }
 
@@ -757,11 +833,11 @@ export default {
         const audiobookMeta = sceneList.audiobook && typeof sceneList.audiobook === "object" ? sceneList.audiobook : null;
         const author = audiobookMeta ? String((audiobookMeta as any).author || "").trim() : "";
         const narrator = audiobookMeta ? String((audiobookMeta as any).narrator || "").trim() : "";
-        const isbn = audiobookMeta ? String((audiobookMeta as any).isbn || "").trim() : "";
-        prBody = `Type: audiobook\nAuthor: ${author || "(none)"}\nNarrator: ${narrator || "(none)"}\nISBN: ${isbn || "(none)"}\nPath: ${scenePath}\nCreated: ${sceneList.created_at || ""}\n`;
+        const bookAsin = audiobookMeta ? String((audiobookMeta as any).asin || "").trim().toUpperCase() : "";
+        prBody = `Type: audiobook\nASIN: ${bookAsin || "(none)"}\nAuthor: ${author || "(none)"}\nNarrator: ${narrator || "(none)"}\nWork ID: ${workId}\nScene List ID: ${sceneListId}\nPath: ${scenePath}\nSubmitted: ${sceneList.submitted_at || ""}\n`;
       } else {
         prTitle = `Add scene list: ${sceneList.title || branchKey} (tmdb:${tmdbType}:${tmdbId})`;
-        prBody = `TMDb: ${tmdbType}:${tmdbId}\nIMDb: ${imdbId || "(none)"}\nType: ${contentType}${contentType === "episode" ? `\nSeason: ${seasonNumber}\nEpisode: ${episodeNumber}` : ""}\nPath: ${scenePath}\nCreated: ${sceneList.created_at || ""}\n`;
+        prBody = `TMDb: ${tmdbType}:${tmdbId}\nIMDb: ${imdbId || "(none)"}\nWork ID: ${workId}\nScene List ID: ${sceneListId}\nType: ${contentType}${contentType === "episode" ? `\nSeason: ${seasonNumber}\nEpisode: ${episodeNumber}` : ""}\nPath: ${scenePath}\nSubmitted: ${sceneList.submitted_at || ""}\n`;
       }
 
       const pr = await githubFetch(installationToken, `https://api.github.com/repos/${OWNER}/${REPO}/pulls`, {

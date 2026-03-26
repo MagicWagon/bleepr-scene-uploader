@@ -1,0 +1,113 @@
+{
+  "schema_version": 4,
+  "content_type": "movie",
+  "scene_list_id": "legacy_8d5458d7bc02",
+  "work_id": "tmdb:movie:653723",
+  "ids": {
+    "tmdb": {
+      "type": "movie",
+      "id": 653723
+    },
+    "imdb": "tt11095742"
+  },
+  "title": "Boys State",
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "scenes": [
+    {
+      "start_ms": 1734000,
+      "end_ms": 1735000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    },
+    {
+      "start_ms": 2322000,
+      "end_ms": 2323000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2346000,
+      "end_ms": 2352000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2616000,
+      "end_ms": 2617000,
+      "action": "Remove",
+      "category": "childish_language",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2862000,
+      "end_ms": 2863000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2862000,
+      "end_ms": 2868000,
+      "action": "Remove",
+      "category": "sexual_assault",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2928000,
+      "end_ms": 2940000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 2940000,
+      "end_ms": 2941000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3618000,
+      "end_ms": 3619000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 3642000,
+      "end_ms": 3643000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4020000,
+      "end_ms": 4021000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    },
+    {
+      "start_ms": 4224000,
+      "end_ms": 4242000,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "enabled": true
+    }
+  ]
+}
