@@ -1,0 +1,25 @@
+{
+  "schema_version": 4,
+  "content_type": "movie",
+  "scene_list_id": "legacy_260e5e2d869b",
+  "work_id": "tmdb:movie:596204",
+  "ids": {
+    "tmdb": {
+      "type": "movie",
+      "id": 596204
+    },
+    "imdb": "tt10050766"
+  },
+  "title": "Brene Brown: The Call to Courage",
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "scenes": [
+    {
+      "start_ms": 2580000,
+      "end_ms": 2581000,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": true
+    }
+  ]
+}

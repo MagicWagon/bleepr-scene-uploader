@@ -2,6 +2,11 @@
   "name": "bleepr-scene-uploader",
   "private": true,
   "type": "module",
+  "scripts": {
+    "backfill:tmdb": "node scripts/backfill_tmdb_ids.mjs",
+    "patch:tmdb": "node scripts/patch_tmdb_ids.mjs",
+    "migrate:v4": "node scripts/migrate_v4_library.mjs"
+  },
   "dependencies": {
     "jose": "^5.2.0"
   }

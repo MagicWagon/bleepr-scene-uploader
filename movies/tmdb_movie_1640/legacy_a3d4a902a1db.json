@@ -1,0 +1,25 @@
+{
+  "schema_version": 4,
+  "content_type": "movie",
+  "scene_list_id": "legacy_a3d4a902a1db",
+  "work_id": "tmdb:movie:1640",
+  "ids": {
+    "tmdb": {
+      "type": "movie",
+      "id": 1640
+    },
+    "imdb": "tt0375679"
+  },
+  "title": "Crash",
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "scenes": [
+    {
+      "start_ms": 0,
+      "end_ms": 1000,
+      "action": "Remove",
+      "category": "",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": false
+    }
+  ]
+}

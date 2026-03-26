@@ -1,0 +1,25 @@
+{
+  "schema_version": 4,
+  "content_type": "movie",
+  "scene_list_id": "legacy_547f7f3e98fa",
+  "work_id": "tmdb:movie:85431",
+  "ids": {
+    "tmdb": {
+      "type": "movie",
+      "id": 85431
+    },
+    "imdb": "tt1261954"
+  },
+  "title": "Take Me Home",
+  "source": "VIDA (Kaggle: benjameeper/movie-violencesexprofanity-data)",
+  "scenes": [
+    {
+      "start_ms": 0,
+      "end_ms": 1000,
+      "action": "Remove",
+      "category": "",
+      "note": "This data was obtained from https://www.kaggle.com/datasets/benjameeper/movie-violencesexprofanity-data. Timestamps may be incorrect. Please adjust the timing offsets as necessary.",
+      "enabled": false
+    }
+  ]
+}
