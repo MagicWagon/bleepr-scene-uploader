@@ -1,0 +1,59 @@
+{
+  "schema_version": 4,
+  "content_type": "movie",
+  "scene_list_id": "01KMNGQW6Y0TAF224ZMRD0NWJ6",
+  "work_id": "tmdb:movie:2280",
+  "ids": {
+    "tmdb": {
+      "type": "movie",
+      "id": 2280
+    },
+    "imdb": "tt0094737"
+  },
+  "title": "Big",
+  "year": 1988,
+  "video_duration_ms": 7825026,
+  "submitted_at": "2026-03-26T16:48:16Z",
+  "label": "Removes objectionable and sexual content",
+  "source_app": {
+    "name": "Bleepr"
+  },
+  "scenes": [
+    {
+      "start_ms": 135640,
+      "end_ms": 155200,
+      "action": "Remove",
+      "category": "sexually_suggestive",
+      "note": "",
+      "text": "You ever go by Simpons desk when she's grading papers or something? She leaned over, you can see right down her shirt. No, I swear to God. Bra? No, no, she's got one of those undershirt things. So if you get real close to the board, you can see all the way down to her flowers. Whoa.",
+      "enabled": true
+    },
+    {
+      "start_ms": 4196450,
+      "end_ms": 4197370,
+      "action": "Remove",
+      "category": "sexual_reference",
+      "note": "",
+      "text": "But I get to be on top.",
+      "enabled": true
+    },
+    {
+      "start_ms": 5070050,
+      "end_ms": 5072290,
+      "action": "Remove",
+      "category": "objectionable",
+      "note": "",
+      "text": "We can go out and get some beers, some dirty magazines.",
+      "enabled": true
+    },
+    {
+      "start_ms": 5419946,
+      "end_ms": 5510602,
+      "action": "Remove",
+      "category": "sex_with_nudity",
+      "note": "",
+      "text": "",
+      "enabled": true
+    }
+  ]
+}
