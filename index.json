@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "catalog_updated_at": "2026-03-26T16:48:28.916Z",
+  "catalog_updated_at": "2026-03-28T13:20:30.478Z",
   "movies": [
     {
       "scene_list_id": "legacy_0b38f1139484",
@@ -25970,5 +25970,22 @@
       "video_duration_ms": 5205664
     }
   ],
-  "audiobooks": []
+  "audiobooks": [
+    {
+      "scene_list_id": "01KMT9ME4CHP4NPPJ2ZXHEB78S",
+      "work_id": "asin:B08G9PRS1K",
+      "content_type": "audiobook",
+      "title": "Project Hail Mary",
+      "path": "audiobooks/asin_B08G9PRS1K/01KMT9ME4CHP4NPPJ2ZXHEB78S.json",
+      "scene_count": 64,
+      "submitted_at": "2026-03-28T13:20:15Z",
+      "year": 2021,
+      "audio_duration_ms": 58253084,
+      "audiobook": {
+        "author": "Andy Weir",
+        "narrator": "Ray Porter",
+        "asin": "B08G9PRS1K"
+      }
+    }
+  ]
 }
