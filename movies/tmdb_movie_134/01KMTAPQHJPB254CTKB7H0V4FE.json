@@ -1,0 +1,32 @@
+{
+  "schema_version": 4,
+  "content_type": "movie",
+  "scene_list_id": "01KMTAPQHJPB254CTKB7H0V4FE",
+  "work_id": "tmdb:movie:134",
+  "ids": {
+    "tmdb": {
+      "type": "movie",
+      "id": 134
+    },
+    "imdb": "tt0190590"
+  },
+  "title": "O Brother, Where Art Thou?",
+  "year": 2000,
+  "video_duration_ms": 6442518,
+  "submitted_at": "2026-03-28T13:38:59Z",
+  "label": "Removes sirens",
+  "source_app": {
+    "name": "Bleepr"
+  },
+  "scenes": [
+    {
+      "start_ms": 2591036,
+      "end_ms": 2744036,
+      "action": "Remove",
+      "category": "sex_implied",
+      "note": "Sirens",
+      "text": "",
+      "enabled": true
+    }
+  ]
+}
