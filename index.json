@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "catalog_updated_at": "2026-03-28T13:20:30.478Z",
+  "catalog_updated_at": "2026-03-28T13:39:11.204Z",
   "movies": [
     {
       "scene_list_id": "legacy_0b38f1139484",
@@ -25943,6 +25943,25 @@
       },
       "year": 1988,
       "video_duration_ms": 7825026
+    },
+    {
+      "scene_list_id": "01KMTAPQHJPB254CTKB7H0V4FE",
+      "work_id": "tmdb:movie:134",
+      "content_type": "movie",
+      "title": "O Brother, Where Art Thou?",
+      "path": "movies/tmdb_movie_134/01KMTAPQHJPB254CTKB7H0V4FE.json",
+      "scene_count": 1,
+      "submitted_at": "2026-03-28T13:38:59Z",
+      "label": "Removes sirens",
+      "ids": {
+        "tmdb": {
+          "type": "movie",
+          "id": 134
+        },
+        "imdb": "tt0190590"
+      },
+      "year": 2000,
+      "video_duration_ms": 6442518
     }
   ],
   "episodes": [
